@@ -1,0 +1,11 @@
+{
+  "collectorIP":"1.1.1.1",
+  "collectorPort":"50010",
+  "cert":"/usr/local/owlh/src/owlhnode/conf/certs/ca.pem",
+  "bpf":"not port 50010 and not port 22",
+  "includeInt":["en","eth","p2"],
+  "excludeInt":["lo"],
+  "includeNet":["0.0.0.0/0"],
+  "excludeIP":["192.168.0.1"],
+  "waitTime":10
+}
